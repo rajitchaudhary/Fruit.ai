@@ -88,5 +88,6 @@ def delete_faq(id):
     else:
         return jsonify({'error': 'FAQ not found'}), 404
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if _name_ == '_main_':
+        port = int(os.environ.get('PORT', 5000))
+            app.run(host='0.0.0.0', port=port, debug=True)
