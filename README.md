@@ -1,18 +1,23 @@
-Flask Backend for React Frontend Project
-Project Overview
+# Flask Backend for React Frontend Project
+
+## Project Overview
+
 This project is a Flask backend that provides API endpoints for CRUD operations on FAQs and integrates with the Gemini API for chatbot functionality. It interacts with a React frontend application.
 
-Getting Started
-Prerequisites
-Python 3.7 or higher
-pip (Python package installer)
-Installation
-Clone the Repository
+## Getting Started
 
-bash
-Copy code
-git clone <repository-url>
-cd <repository-directory>
+### Prerequisites
+
+- Python 3.7 or higher
+- pip (Python package installer)
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
 Create a Virtual Environment
 
 It's recommended to use a virtual environment to manage dependencies. Run:
