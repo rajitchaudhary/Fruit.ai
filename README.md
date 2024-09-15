@@ -23,7 +23,7 @@ Create a Virtual Environment
 Here’s the code formatted for easy copying:
 
 markdown
-Copy code
+
 ## Getting Started
 
 ### Create a Virtual Environment
@@ -35,27 +35,24 @@ python -m venv venv
 Activate the Virtual Environment
 On Windows:
 
-bash
-Copy code
+
+
 venv\Scripts\activate
 On macOS/Linux:
 
-bash
-Copy code
+
 source venv/bin/activate
 Install Dependencies
 Install the required packages using pip:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Running the Server
 Start the Flask Server
 
 To run the Flask server, use:
 
-bash
-Copy code
+
 python app.py
 The server will start on http://localhost:5000 by default. You can change the port or host in the app.py file if needed.
 
