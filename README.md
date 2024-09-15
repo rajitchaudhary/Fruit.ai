@@ -33,26 +33,21 @@ It's recommended to use a virtual environment to manage dependencies. Run:
 ```bash
 python -m venv venv
 Activate the Virtual Environment
+
 On Windows:
-
-
-
 venv\Scripts\activate
+
+
 On macOS/Linux:
-
-
 source venv/bin/activate
+
 Install Dependencies
 Install the required packages using pip:
-
-
 pip install -r requirements.txt
 Running the Server
 Start the Flask Server
 
 To run the Flask server, use:
-
-
 python app.py
 The server will start on http://localhost:5000 by default. You can change the port or host in the app.py file if needed.
 
