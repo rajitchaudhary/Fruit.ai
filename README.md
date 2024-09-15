@@ -22,26 +22,26 @@ Create a Virtual Environment
 
 It's recommended to use a virtual environment to manage dependencies. Run:
 
-bash
+```bash
 Copy code
 python -m venv venv
 Activate the Virtual Environment
 
 On Windows:
 
-bash
+```bash
 Copy code
 venv\Scripts\activate
 On macOS/Linux:
 
-bash
+```bash
 Copy code
 source venv/bin/activate
 Install Dependencies
 
 Install the required packages using pip:
 
-bash
+```bash
 Copy code
 pip install -r requirements.txt
 Running the Server
@@ -49,7 +49,7 @@ Start the Flask Server
 
 To run the Flask server, use:
 
-bash
+```bash
 Copy code
 python app.py
 The server will start on http://localhost:5000 by default. You can change the port or host in the app.py file if needed.
