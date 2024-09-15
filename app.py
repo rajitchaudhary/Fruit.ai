@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 from flask_cors import CORS
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -88,6 +89,6 @@ def delete_faq(id):
     else:
         return jsonify({'error': 'FAQ not found'}), 404
 
-if _name_ == '_main_':
-        port = int(os.environ.get('PORT', 5000))
-            app.run(host='0.0.0.0', port=port, debug=True)
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
